@@ -28,7 +28,7 @@ button:hover {
 .btn-next {
     position: relative;
     bottom: -300px;
-    opacity: 0;
+    opacity: 100;
 }
 
 .container {
