@@ -43,7 +43,7 @@ button:hover {
 
 .btn-next {
     position: relative;
-    bottom: -40vh;
+    bottom: -30vh;
     left: 10vw;
     opacity: 100;
     width: 80vw;
@@ -143,7 +143,7 @@ button:hover {
 
 .twoBtn {
     position: absolute;
-    top: 80vh;
+    top: 70vh;
 }
 
 .twoBtn button:first-child {
