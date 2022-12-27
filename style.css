@@ -26,20 +26,20 @@ button:hover {
 
 .btn-fst {
     margin-left: -20vw;
-    top: 90px;
+    top: -2vh;
     opacity: 0.1 !important;
 }
 
 .btn-two {
-    top: 355px;
+    top: 22vh;
 }
 
 .btn-three {
-    top: 355px;
+    top: 22vh;
 }
 
 .btn-four {
-    top: 50px;
+    top: -6vh;
 }
 
 .btn-lst {
