@@ -26,6 +26,20 @@ button:hover {
 
 .btn-fst {
     margin-left: -20vw;
+    top: 90px;
+    opacity: 0.1 !important;
+}
+
+.btn-two {
+    top: 355px;
+}
+
+.btn-three {
+    top: 355px;
+}
+
+.btn-four {
+    top: 50px;
 }
 
 .btn-lst {
@@ -95,7 +109,9 @@ button:hover {
 }
 
 .four {
-    background-color: limegreen;
+    background-image: url("img/main-7.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .img-info {
@@ -134,7 +150,7 @@ button:hover {
 
 .btn-kakao {
     position: absolute;
-    bottom: 100px;
+    bottom: 30px;
     left: 20px;
     width: 90vw;
     height: 50px;
@@ -153,4 +169,13 @@ button:hover {
 .twoBtn button {
     color: white;
     width: 80vw;
+}
+
+
+
+
+.start-btn {
+    bottom: 0;
+    position: fixed;
+    opacity: 0.1;
 }
