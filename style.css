@@ -71,7 +71,7 @@ button:hover {
 
 .pages {
     display: flex;
-    width: 400%;
+    width: 200%;
     box-sizing: border-box;
 }
 
@@ -85,6 +85,34 @@ button:hover {
     gap: 10px;
     transition: all 0.7s;
     color: white;
+}
+
+.pagess {
+    box-sizing: border-box;
+}
+
+.page2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 0.7s;
+    color: white;
+}
+
+.page2.one {
+    background-image: url("img/main-1.png");
+}
+
+.page2.two {
+    background-image: url("img/main-2.png");
+}
+
+button.btn-next.btn-fst.btn-index {
+    top: 40vh;
 }
 
 .one {
@@ -143,7 +171,7 @@ button:hover {
 .img-k {
     width: 100vw;
     height: 100vh;
-    background-image: url("img/main-2.png");
+    background-image: url("img/main-8.png");
     background-size: cover;
     background-position: center;
 }
@@ -178,4 +206,10 @@ button:hover {
     bottom: 0;
     position: fixed;
     opacity: 0.1;
+}
+
+.btn-info {
+    position: absolute;
+    right: 0;
+    opacity: 0;
 }
